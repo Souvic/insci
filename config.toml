@@ -1,7 +1,7 @@
 baseurl = "https://www.insci.io" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "insci"
+title = "Insci Analytics - where your company meets AI-driven exponential growth!"
 theme = "hugo-universal-theme"
-themesDir = "themes/"
+themesDir = "current_theme/"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
@@ -380,30 +380,23 @@ paginate = 10
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:contact@insci.io"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "Insci Analytics"
+    defaultKeywords = ["AI", "Insci", "Analytics"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "Made @Insci with magic!"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
-    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
-
-    latitude = "-12.043333"
-    longitude = "-77.028333"
-
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "marsala"
+    style = "mystyle"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -439,25 +432,22 @@ paginate = 10
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2022, Insci Analytics Pvt. Ltd.; all rights reserved."
+    about_us = "<p>We are a AI-first company, <br> made by <strong><em>scientists, engineers and growth-hackers!</em></strong></p>"
+    copyright = "Copyright (c) 2022, Insci Analytics Pvt. Ltd. All rights reserved."
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    date_format = "January 1, 2022"
 
     disabled_logo = true
-    logo_text = "Insci"
+    logo_text = "INSCI ANALYTICS"
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "img/insci.png"
+    logo_small = "img/insci.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    address = """<p class="text-uppercase"><strong>Insci Analytics</strong>
+        <br>15th Cross Rd, ITI Layout,
+        <br> J. P. Nagar, Bengaluru
+        <br>Karnataka 560078
       </p>
       """
 
@@ -475,19 +465,20 @@ paginate = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
+    enable=true
     categories = true
     tags = true
     search = true
 
 [params.carouselCustomers]
     items = 6
-    auto_play = false
+    auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
 
 [params.carouselTestimonals]
     items = 4
-    auto_play = false
+    auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
 
@@ -532,13 +523,13 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = false
+    enable = true
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
 [params.footer.recent_posts]
-    enable = true
+    enable = false
 
 [taxonomies]
   category = "categories"

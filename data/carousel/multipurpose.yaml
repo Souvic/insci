@@ -1,4 +1,9 @@
-weight: 1
-title: "Multipurpose responsive theme"
-description: "<p>Business. Corporate. Agency.<br>Portfolio. Blog. E-commerce.</p>"
-image: "img/carousel/template-homepage.png"
+weight: 3
+title: "Hate Speech is becoming a compliance Issue!"
+description: >
+  <ul class="list-style-none">
+     <li>Reducing Hatespeech has become a compliance issue in many countries!</li>
+     <li>Users are leaving social media fearing long term Hate exposure!</li>
+     <li>Learn from our state of the art hatespeech research published at best AI Conferences NOW!</li>
+   </ul>
+image: "img/carousel/hatespeech.png"

@@ -1,0 +1,9 @@
+weight: 2
+title: "Recommend the users what they really want!"
+description: >
+  <ul class="list-style-none">
+     <li>Amazon, Facebook, Google all owe their success to the power of Recommendation Engines!</li>
+     <li>Power your model with the best models from OpenAI and Google!</li>
+     <li>Harness the Power of AI with our team of Computer Scientists NOW!</li>
+   </ul>
+image: "img/carousel/recommendationsystem.jpeg"
