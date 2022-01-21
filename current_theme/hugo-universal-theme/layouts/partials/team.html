@@ -1,0 +1,47 @@
+{{ if isset .Site.Params "team" }}
+{{ if .Site.Params.team.enable }}
+{{ if gt (len .Site.Data.team) 0 }}
+
+<section class="py-5">
+    <div class="container py-4">
+      <header class="mb-5">
+        <h2 class="text-uppercase lined mb-4">{{ .Site.Params.team.title }}</h2>
+        <p class="lead">
+            {{ .Site.Params.team.subtitle | markdownify }}
+        </p>
+      </header>
+
+        <div class="mb-5">
+            <div class="row gy-4">
+            <!-- Team member  -->
+            {{ range .Site.Data.team }}
+            <div class="col-lg-3 col-md-6 text-center">
+                <img class="avatar avatar-xxl p-2 mb-4" src="{{ .avatar | absURL }}" alt="{{ .name }}">
+                <h3 class="h4 mb-1 text-uppercase"><a class="text-reset" href="team-member.html">{{ .name }}</a></h3>
+                <p class="text-muted small text-uppercase">{{ .position }}</p>
+                <ul class="list-inline">
+                {{ if .fb }}
+                    <li class="list-inline-item"><a class="social-link facebook" href="{{ .fb }}"><i class="fab fa-facebook-f"></i></a></li>
+                    {{ end }}
+                    {{ if .twitter }}
+                <li class="list-inline-item"><a class="social-link twitter" href="{{ .twitter}}"><i class="fab fa-twitter"></i></a></li>
+                {{ end }}
+                {{if .yt }}
+                <li class="list-inline-item"><a class="social-link youtube" href="{{ .yt }}"><i class="fab fa-youtube"></i></a></li>
+                {{ end }}
+
+                <li><a class="social-link email" href="{{ .email }}"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+                <p class="small small text-gray-600">{{ .about }}.</p>
+            </div>
+            {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /.bar -->
+{{ end }}
+{{ end }}
+{{ end }}
+
