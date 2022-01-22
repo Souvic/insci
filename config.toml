@@ -63,12 +63,12 @@ paginate = 10
     weight     = 3
 
 [[menu.main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
+    name       = "Chatbot + NLP"
+    identifier = "section.chatbot"
     url        = ""
     weight     = 1
     parent     = "menu.specializations"
-    post       = 1
+    
 
 [[menu.main]]
     name       = "Header variations"
@@ -82,49 +82,49 @@ paginate = 10
     name       = "Accordions"
     url        = ""
     weight     = 1
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Alerts"
     url        = ""
     weight     = 2
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Buttons"
     url        = ""
     weight     = 3
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Content Boxes"
     url        = ""
     weight     = 4
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Horizontal Blocks"
     url        = ""
     weight     = 5
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Pagination"
     url        = ""
     weight     = 6
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Tabs"
     url        = ""
     weight     = 7
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Typography"
     url        = ""
     weight     = 8
-    parent     = "section.shortcodes"
+    parent     = "menu.specializations"
 
 [[menu.main]]
     name       = "Default Sticky Header"
@@ -150,81 +150,30 @@ paginate = 10
     url        = "/img/template-homepage.png"
     weight     = 3
 
-# [[menu.main]]
-#     name       = "Portfolio"
-#     identifier = "section.portfolio"
-#     url        = ""
-#     weight     = 1
-#     parent     = "menu.portfolio"
-#     post       = 1
 
-# [[menu.main]]
-#     name       = "2 Columns"
-#     url        = ""
-#     weight     = 1
-#     parent     = "section.portfolio"
-
-# [[menu.main]]
-#     name       = "2 Columns With Negative Space"
-#     url        = ""
-#     weight     = 2
-#     parent     = "section.portfolio"
-
-# [[menu.main]]
-#     name       = "3 Columns"
-#     url        = ""
-#     weight     = 3
-#     parent     = "section.portfolio"
-
-# [[menu.main]]
-#     name       = "3 Columns With Negative Space"
-#     url        = ""
-#     weight     = 4
-#     parent     = "section.portfolio"
-
-# [[menu.main]]
-#     name       = "4 Columns"
-#     url        = ""
-#     weight     = 5
-#     parent     = "section.portfolio"
-
-# [[menu.main]]
-#     name       = "4 Columns With Negative Space"
-#     url        = ""
-#     weight     = 6
-#     parent     = "section.portfolio"
-
-# [[menu.main]]
-#     name       = "Portfolio - detail"
-#     url        = ""
-#     weight     = 7
-#     parent     = "section.portfolio"
-
-# [[menu.main]]
-#     name       = "Portfolio - detail 2"
-#     url        = ""
-#     weight     = 8
-#     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "About"
     identifier = "section.about"
     url        = ""
-    weight     = 2
-    parent     = "menu.portfolio"
-    post       = 2
+    weight     = 4
 
 [[menu.main]]
     name       = "About Us"
-    url        = ""
+    identifier = "menu.about_us"
+    url        = "/about_us/"
     weight     = 1
     parent     = "section.about"
 
+    
 [[menu.main]]
     name       = "Our Team"
-    url        = ""
+    identifier = "team"
+    url        = "/team/"
     weight     = 2
     parent     = "section.about"
+
+
 
 [[menu.main]]
     name       = "Marketing"
@@ -350,11 +299,11 @@ paginate = 10
     url        = "/contact/"
     weight     = 7
 
-[[menu.main]]
-    identifier = "team"
-    name       = "About Us"
-    url        = "/team/"
-    weight     = 8
+# [[menu.main]]
+#     identifier = "team"
+#     name       = "About Us"
+#     url        = "/team/"
+#     weight     = 8
 # Top bar social links menu
 
 [[menu.topbar]]
