@@ -350,7 +350,11 @@ paginate = 10
     url        = "/contact/"
     weight     = 7
 
-
+[[menu.main]]
+    identifier = "team"
+    name       = "About Us"
+    url        = "/team/"
+    weight     = 8
 # Top bar social links menu
 
 [[menu.topbar]]
