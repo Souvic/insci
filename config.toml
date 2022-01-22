@@ -58,7 +58,7 @@ paginate = 10
 
 [[menu.main]]
     name       = "Specializations"
-    identifier = "menu.features"
+    identifier = "menu.specializations"
     url        = "/img/template-easy-customize.png"
     weight     = 3
 
@@ -67,7 +67,7 @@ paginate = 10
     identifier = "section.shortcodes"
     url        = ""
     weight     = 1
-    parent     = "menu.features"
+    parent     = "menu.specializations"
     post       = 1
 
 [[menu.main]]
@@ -75,7 +75,7 @@ paginate = 10
     identifier = "section.headervariations"
     url        = ""
     weight     = 2
-    parent     = "menu.features"
+    parent     = "menu.specializations"
     post       = 2
 
 [[menu.main]]
@@ -495,11 +495,11 @@ paginate = 10
     slide_speed = 2000
     pagination_speed = 1000
 
-[params.features]
+[params.specializations]
     enable = true
     cols = 3 # Default: 3, Available values 2,3,4,6
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
+    # All specializations are defined in their own files. You can find example items
+    # at 'exampleSite/data/specializations'.
     # For more informtion take a look at the README.
 
 [params.testimonials]
