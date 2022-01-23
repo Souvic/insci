@@ -9,7 +9,7 @@
         <p class="lead">{{ .Site.Params.products.subtitle | markdownify }}</p>
       </header>
       <div class="row gy-4">
-        {{ range where site.RegularPages "Type" "in" site.Params.prodsec }}        
+        {{ range where site.RegularPages "Type" "in" site.Params.prodsec }}
         <div class="col-lg-3 col-md-6">
             <!-- Portfolio item-->
             <div class="box-image-text text-center primary-overlay"><img class="img-fluid" src="{{ .Params.image | absURL }}" alt="{{ .Params.name }}">
