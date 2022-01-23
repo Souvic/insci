@@ -1,0 +1,25 @@
+{{ if isset .Site.Params "showcase" }}
+{{ if .Site.Params.showcase.enable }}
+
+<section class="py-5 bg-pentagon border-top border-bottom border-gray-600">
+    <div class="container py-4">
+      <!-- Counters-->
+      <div class="row gy-4 text-center" id="counterUp">
+        {{ range .Site.Data.showcase }}
+        <div class="col-lg-3 col-sm-6">
+          <div class="text-center text-gray-700">
+            <div class="icon-outlined border-gray-600 icon-sm mx-auto mb-3 icon-thin"><i class="{{ .favicon }}"></i></div>
+            <h4 class="h1 counter mb-3" data-counter="{{ .count }}">{{ .count }}</h4>
+            <p class="text-uppercase fw-bold mb-0">{{ .name }}</p>
+          </div>
+        </div>
+        {{ end }}
+       
+
+
+
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
