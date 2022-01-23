@@ -1,5 +1,5 @@
 +++
-name = "Categories Post"
+name = "Hello"
 
 image = "img/banners/banner-4.jpg"
 +++

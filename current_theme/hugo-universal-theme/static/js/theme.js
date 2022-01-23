@@ -46,6 +46,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     /* =====================================================
+        PORTFOLIO SLIDER
+    ===================================================== */
+    var portfolioSlider = new Swiper(".portfolio-slider", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+            clickable: true,
+        },
+    });
+
+    /* =====================================================
         CUSTOMERS SLIDER
     ===================================================== */
     var customersSlider = new Swiper(".customers-slider", {
