@@ -183,11 +183,11 @@ paginate = 10
 #     parent     = "menu.portfolio"
 #     post       = 2
 
-[[menu.main]]
-    name       = "Packages"
-    url        = ""
-    weight     = 1
-    parent     = "section.marketing"
+# [[menu.main]]
+#     name       = "Packages"
+#     url        = ""
+#     weight     = 1
+#     parent     = "section.marketing"
 
 # [[menu.main]]
 #     name       = "All Pages"
