@@ -341,6 +341,7 @@ paginate = 10
     author = "Insci Analytics"
     defaultKeywords = ["AI", "Insci", "Analytics"]
     mainSections = ["blog"]
+    prodsec = ["products"]
     defaultDescription = "Made @Insci with magic!"
 
     # Social media
@@ -480,6 +481,15 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "Our Clients"
+    subtitle = ""
+
+
+[params.products]
+    enable = true
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Products"
     subtitle = ""
 
 [params.see_more]
