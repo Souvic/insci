@@ -159,7 +159,135 @@
   -o-transform: translate(0, 100%);
   transform: translate(0, 100%);
 }
+
+.box-image-text-description, .box-image-description {
+  transition: all 0.3s;
+  transform: translateY(1rem);
+  opacity: 0;
+}
+
+.box-image-text:hover .box-image-text-heading, .box-image-text:hover .box-image-text-content, .box-image:hover .box-image-text-heading, .box-image:hover .box-image-text-content {
+  opacity: 1;
+  transform: none;
+}
+
+.box-image-text:hover .box-image-text-description, .box-image:hover .box-image-text-description {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.15s;
+}
+
+.box-image-text:hover .box-image-text-content, .box-image:hover .box-image-text-content {
+  transition-delay: 0.3s;
+}
+
+.box-image-text:hover::after, .box-image:hover::after {
+  opacity: 0.6;
+}
+
+.box-image [class*='-overlay']::after {
+  opacity: 0;
+}
+
+.box-image:hover .box-image-content {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0s;
+}
+
+.box-image:hover [class*='-overlay']::after {
+  opacity: 0.6;
+}
+
+.block-icon-hover:hover .icon {
+  transform: scale(1.1);
+}
+
+
 /* end */
+
+
+/*
+     CONTENT BOXES
+    ------------------------
+*/
+.box-image-text, .box-image {
+  overflow: hidden;
+  position: relative;
+}
+
+.box-image-text[class*='-overlay']::after, .box-image[class*='-overlay']::after {
+  opacity: 0;
+}
+
+.box-image-text .overlay-content, .box-image .overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.box-image-text-heading, .box-image-heading {
+  color: #fff;
+  transition: all 0.3s;
+  transform: translateY(-1rem);
+  opacity: 0;
+}
+
+.box-image-text-content, .box-image-content {
+  transition: all 0.3s;
+  transform: translateY(1rem);
+  opacity: 0;
+}
+
+.box-image-text-description, .box-image-description {
+  transition: all 0.3s;
+  transform: translateY(1rem);
+  opacity: 0;
+}
+
+.box-image-text:hover .box-image-text-heading, .box-image-text:hover .box-image-text-content, .box-image:hover .box-image-text-heading, .box-image:hover .box-image-text-content {
+  opacity: 1;
+  transform: none;
+}
+
+.box-image-text:hover .box-image-text-description, .box-image:hover .box-image-text-description {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.15s;
+}
+
+.box-image-text:hover .box-image-text-content, .box-image:hover .box-image-text-content {
+  transition-delay: 0.3s;
+}
+
+.box-image-text:hover::after, .box-image:hover::after {
+  opacity: 0.6;
+}
+
+.box-image [class*='-overlay']::after {
+  opacity: 0;
+}
+
+.box-image:hover .box-image-content {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0s;
+}
+
+.box-image:hover [class*='-overlay']::after {
+  opacity: 0.6;
+}
+
+.block-icon-hover:hover .icon {
+  transform: scale(1.1);
+}
+
+.text-white {
+  color: #fff !important;
+}
+
 
 .text-gray-700 {
   color: #545454;

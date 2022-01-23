@@ -1,6 +1,6 @@
 +++
 name = "Hello"
-
+description = "Description provided here"
 image = "img/banners/banner-4.jpg"
 +++
 
