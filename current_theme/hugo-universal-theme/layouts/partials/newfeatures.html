@@ -1,0 +1,94 @@
+<style>
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+h2,h3{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+h2,h3{margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h2{font-size:2rem;}
+h3{font-size:1.75rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-4,.col-md-6{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+@media (min-width:768px){
+.col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media (min-width:992px){
+.col-lg-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+h2,h3,p{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+.container{min-width:992px!important;}
+}
+.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft;}
+h2,h3{font-weight:600;}
+.bg-f4f6fc{background-color:#f4f6fc;}
+.pt-100{padding-top:100px;}
+.pb-70{padding-bottom:70px;}
+p{color:#4a6f8a;margin-bottom:12px;line-height:1.8;font-size:15px;}
+p:last-child{margin-bottom:0;}
+.section-title{text-align:center;max-width:575px;text-transform:capitalize;margin-left:auto;margin-bottom:60px;margin-right:auto;}
+.section-title h2{margin-bottom:0;font-size:40px;font-weight:600;}
+.features-area{overflow:hidden;}
+.features-box-one{margin-bottom:30px;background:#fff;padding:30px;text-align:center;border-radius:10px;transition:0.5s;}
+.features-box-one:hover{box-shadow:0 5px 50px rgba(0, 0, 0, 0.08);margin-top:-5px;}
+.features-box-one i{width:70px;height:70px;line-height:70px;font-size:30px;text-align:center;border-radius:100%;color:#ffffff;margin-bottom:25px;}
+.features-box-one h3{margin-bottom:10px;font-size:22px;font-weight:600;}
+.features-box-one p{margin:0;}
+.bg-13c4a1{background-color:#13c4a1;}
+.bg-6610f2{background-color:#6610f2;}
+.bg-ffb700{background-color:#ffb700;}
+.bg-fc3549{background-color:#fc3549;}
+.bg-00d280{background-color:#00d280;}
+.bg-ff612f{background-color:#ff612f;}
+@media only screen and (max-width: 767px){
+p{font-size:14px;}
+.pt-100{padding-top:60px;}
+.pb-70{padding-bottom:30px;}
+.section-title{max-width:100%;margin-left:0;margin-right:0;margin-bottom:0px;}
+.section-title h2{font-size:24px;line-height:1.3;}
+.features-box-one h3{font-size:20px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+p{font-size:14px;}
+.pt-100{padding-top:80px;}
+.pb-70{padding-bottom:50px;}
+.section-title{margin-bottom:45px;}
+.section-title h2{font-size:30px;}
+.features-box-one h3{font-size:20px;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.section-title h2{font-size:34px;}
+.features-box-one h3{font-size:20px;}
+.features-box-one{padding:30px 20px;}
+}
+/*! CSS Used from: https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css */
+.bx{font-family:'boxicons'!important;font-weight:normal;font-style:normal;font-variant:normal;line-height:1;display:inline-block;text-transform:none;speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.bx-cog:before{content:"\ea3b";}
+.bx-conversation:before{content:"\ea4e";}
+.bxs-badge-check:before{content:"\ec70";}
+.bxs-bell-ring:before{content:"\ec87";}
+.bxs-dashboard:before{content:"\ed28";}
+.bxs-info-circle:before{content:"\eda7";}
+/*! CSS Used keyframes */
+@-webkit-keyframes fadeInLeft{0%{-webkit-transform:translate3d(-100%,0,0);opacity:0;transform:translate3d(-100%,0,0);}to{-webkit-transform:translateZ(0);opacity:1;transform:translateZ(0);}}
+@keyframes fadeInLeft{0%{-webkit-transform:translate3d(-100%,0,0);opacity:0;transform:translate3d(-100%,0,0);}to{-webkit-transform:translateZ(0);opacity:1;transform:translateZ(0);}}
+/*! CSS Used fontfaces */
+@font-face{font-family:'boxicons';font-weight:normal;font-style:normal;src:url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/fonts/boxicons.eot');src:url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/fonts/boxicons.eot') format('embedded-opentype'),url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/fonts/boxicons.woff2') format('woff2'),url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/fonts/boxicons.woff') format('woff'),url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/fonts/boxicons.ttf') format('truetype'),url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/fonts/boxicons.svg#boxicons') format('svg');}
+</style>
+
+
+<section class="features-area pt-100 pb-70 bg-f4f6fc" style="margin-bottom:0px;"><div class="container"><div class="section-title"><h2>Building starts with a dream and completes with a process</h2></div><div class="row"><div class="col-lg-4 col-md-6"><div class="features-box-one fadeInLeft" style="animation-name: fadeInLeft; visibility: visible; animation-delay: 0.1s;"><i class="bx bx-conversation bg-13c4a1"></i><h3>Experience Design</h3><p>This is the era of phy-digital, we craft experiences that fits into the life our customers swiftly. Its elegant and humane.</p></div></div><div class="col-lg-4 col-md-6"><div class="features-box-one fadeInLeft" style="animation-name: fadeInLeft; visibility: visible; animation-delay: 0.2s;"><i class="bx bxs-badge-check bg-6610f2"></i><h3>Development</h3><p>Technology isn't a constraint, it's an enabler. Insci enables businesses with smooth AI integration across platforms!</p></div></div><div class="col-lg-4 col-md-6"><div class="features-box-one fadeInLeft" style="animation-name: fadeInLeft; visibility: visible; animation-delay: 0.3s;"><i class="bx bxs-dashboard bg-ffb700"></i><h3>Intelligent Machines</h3><p>Consumer needs and technologies are expanding at a breakneck speed, the future of business is in adapting AI !</p></div></div><div class="col-lg-4 col-md-6"><div class="features-box-one fadeInLeft" style="animation-name: fadeInLeft; visibility: visible; animation-delay: 0.4s;"><i class="bx bxs-bell-ring bg-fc3549"></i><h3>Make it Simple</h3><p>We design systems that fits you and not the other way round. No tuning, unexpected surprises or adjusting when you work with InSci</p></div></div><div class="col-lg-4 col-md-6"><div class="features-box-one fadeInLeft" style="animation-name: fadeInLeft; visibility: visible; animation-delay: 0.5s;"><i class="bx bxs-info-circle bg-00d280"></i><h3>Science, Art and Innovation</h3><p>Innovation is technical brilliance with aesthetics. InSci delivers scientific insights adding innovation to the AI building process!</p></div></div><div class="col-lg-4 col-md-6"><div class="features-box-one fadeInLeft" style="animation-name: fadeInLeft; visibility: visible; animation-delay: 0.6s;"><i class="bx bx-cog bg-ff612f"></i><h3>Vision to Reality</h3><p>Team InSci works hard and smart to solve the achilles heel of your business. We empower your business with AI to make it a reality!</p></div></div></div></div></section>
