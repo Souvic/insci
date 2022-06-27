@@ -1,5 +1,5 @@
 baseurl = "https://www.insci.io" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "Insci Analytics - where your company meets AI-driven exponential growth!"
+title = "Insci Analytics - Democratizing AI!"
 theme = "hugo-universal-theme"
 themesDir = "current_theme/"
 languageCode = "en-us"
