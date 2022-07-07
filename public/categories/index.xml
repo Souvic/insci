@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Insci Analytics - Democratizing AI!</title>
-    <link>https://www.insci.io/categories/</link>
-    <description>Recent content in Categories on Insci Analytics - Democratizing AI!</description>
+    <title>Categories on Neurals - Democratizing AI!</title>
+    <link>https://www.neurals.ai/categories/</link>
+    <description>Recent content in Categories on Neurals - Democratizing AI!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://www.insci.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://www.neurals.ai/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>lorem</title>
-      <link>https://www.insci.io/categories/lorem/</link>
+      <link>https://www.neurals.ai/categories/lorem/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://www.insci.io/categories/lorem/</guid>
+      <guid>https://www.neurals.ai/categories/lorem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>https://www.insci.io/categories/programming/</link>
+      <link>https://www.neurals.ai/categories/programming/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://www.insci.io/categories/programming/</guid>
+      <guid>https://www.neurals.ai/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pseudo</title>
-      <link>https://www.insci.io/categories/pseudo/</link>
+      <link>https://www.neurals.ai/categories/pseudo/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://www.insci.io/categories/pseudo/</guid>
+      <guid>https://www.neurals.ai/categories/pseudo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>starting</title>
-      <link>https://www.insci.io/categories/starting/</link>
+      <link>https://www.neurals.ai/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://www.insci.io/categories/starting/</guid>
+      <guid>https://www.neurals.ai/categories/starting/</guid>
       <description></description>
     </item>
     

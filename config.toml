@@ -1,5 +1,5 @@
-baseurl = "https://www.insci.io" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "Insci Analytics - Democratizing AI!"
+baseurl = "https://www.neurals.ai" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+title = "Neurals - Democratizing AI!"
 theme = "hugo-universal-theme"
 themesDir = "current_theme/"
 languageCode = "en-us"
@@ -338,11 +338,11 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "Insci Analytics"
-    defaultKeywords = ["AI", "Insci", "Analytics"]
+    author = "Neurals"
+    defaultKeywords = ["AI", "Neurals", "Analytics"]
     mainSections = ["blog"]
     prodsec = ["products"]
-    defaultDescription = "Made @Insci with magic!"
+    defaultDescription = "Made @Neurals with magic!"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -393,12 +393,12 @@ paginate = 10
     date_format = "January 1, 2022"
 
     disabled_logo = true
-    logo_text = "INSCI ANALYTICS"
+    logo_text = "Neurals"
 
     logo = "img/insci.png"
     logo_small = "img/insci.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Insci Analytics</strong>
+    address = """<p class="text-uppercase"><strong>Neurals.ai</strong>
         <br>15th Cross Rd, ITI Layout,
         <br> J. P. Nagar, Bengaluru
         <br>Karnataka 560078
